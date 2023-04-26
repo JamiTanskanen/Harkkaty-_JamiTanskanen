@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_add_new_lutemon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Lutemon"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/button_list_lutemons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Lutemons"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/button_move_selected_lutemons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move Lutemons"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/button_battle_arena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Battle Arena" />
+
+    <Button
+        android:id="@+id/button_training_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Training Center"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/button_revive_lutemon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Revive Lutemon"
+        android:layout_marginTop="8dp" />
+
+
+</LinearLayout>

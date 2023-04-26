@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LutemonApp_JamiTanskanen</string>
+
+    <string-array name="lutemon_colors">
+        <item>white</item>
+        <item>green</item>
+        <item>pink</item>
+        <item>orange</item>
+        <item>black</item>
+    </string-array>
+    <string-array name="lutemon_locations">
+        <item>Home</item>
+        <item>Training</item>
+        <item>Battle</item>
+        <item>Dead</item>
+    </string-array>
+
+    <string name="category_scroll_view">Category scroll view</string>
+    <string name="move_lutemon_view_pager">Move Lutemon view pager</string>
+    <string name="move_lutemon_tab_layout">Move Lutemon tab layout</string>
+</resources>
